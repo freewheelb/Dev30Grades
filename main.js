@@ -11,7 +11,7 @@
 // This is multipled by 100 to generate a grade from 1 - 100
 var testGrade = Math.floor(Math.random() * 100);
 
-if (testGrade <= 65) {
+if (testGrade >= 0 && testGrade <= 65) {
     console.log('Grade: F');
 }
 else if (testGrade > 65 && testGrade < 71) {
